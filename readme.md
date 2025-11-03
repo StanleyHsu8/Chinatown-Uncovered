@@ -1,4 +1,4 @@
-# A4 Documentation
+# Documentation
 The purpose of Chinatown Uncovered is to offer a comprehensive experience of Chinatown in Haymarket, Sydney, blending historical insights, cultural stories, and local recommendations into a seamless guide. This site is designed for users who seek a deeper understanding and connection to Chinatown, making it a unique resource beyond typical tourist listings.
 
 Several edits were made from the wireframe to the prototype, with the goal of finding the simplest methods to carry out the purpose of the website.
