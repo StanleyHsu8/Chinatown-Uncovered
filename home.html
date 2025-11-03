@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Chinatown Uncovered</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <!-- Full-Page Popup Modal -->
+    <div id="acknowledgement-modal">
+        <div class="modal-content">
+            <h2>Acknowledgement</h2>
+            <p>Chinatown Uncovered would like to acknowledge the Gadigal people of the Eora Nation, the traditional custodians of the Country on which Chinatown stands. We would like to pay our respects to elder’s past, present and emerging.</p>
+            <button id="continue-button">Continue</button>
+        </div>
+    </div>
+    
+    <!-- Header -->
+    <header>
+        <nav aria-label="Main Navigation">
+            <a href="home.html"><img src="images/logo.png" alt="Chinatown Uncovered logo with a red and green Chinese paifang"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html" title="Go to Home Page" aria-current="page">Home</a></li>
+                    <li><a href="history.html" title="Learn About History">History</a></li>
+                    <li><a href="food.html" title="Discover Places to Eat">Food</a></li>
+                    <li><a href="visit.html" title="Find Activities to Do">Visit</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>Where History and Culture Meet</h1>
+        <p>Culture is all around us. Chinatown Uncovered presents everything you need to know. <br> It’s about time you start exploring.</p>
+        <a href="history.html" class="hero-btn">Immerse Yourself Into the History</a>
+    </div>
+    </header>
+
+    <main>
+        <!----- Intro Section ----->
+        <section class="intro">
+            <h2>Welcome to Chinatown Uncovered</h2>
+            <p>The traditional core of Chinatown is centered around Dixon Street, a bustling pedestrian mall lined with Chinese restaurants and marked by traditional Chinese gateways at each end.</p>
+        
+            <div class="container">
+                <article class="card">
+                    <h3>Heritage</h3>
+                    <p>Step into the rich cultural tapestry of Chinatown, filled with historic landmarks, festive events, and art that celebrates its heritage. Uncover the traditions that make this neighborhood a unique destination for locals and visitors alike.</p>
+                </article>
+                <article class="card">
+                    <h3>Community</h3>
+                    <p>Explore the heart of Chinatown, where generations come together to create a supportive and dynamic neighborhood. From local markets to cultural centers, experience the vibrant connections that shape this community.</p>
+                </article>
+                <article class="card">
+                    <h3>Cuisine</h3>
+                    <p>Dive into a culinary journey through Chinatown’s diverse flavors. Discover authentic family-owned eateries, street food gems, and traditional dishes passed down through generations, each with a story to tell.</p>
+                </article>
+            </div>
+        </section>
+
+        <!----- Carousel ----->
+        <section class="carousel">
+            <h2>Did You Know?</h2>
+            <h4>Scroll & hover to learn some interesting facts!</h4>
+            <div class="container">
+                <figure class="carousel-card">
+                    <img src="images/carousel1.jpg" alt="A uniformed Mak Sai Yang, the first Chinese settler">
+                    <figcaption class="layer">
+                        <p>The first Chinese settler who came to Sydney was Mak Sai Ying, who arrived on a trading vessel in 1817.</p>
+                    </figcaption>
+                </figure>
+                <figure class="carousel-card">
+                    <img src="images/carousel2.jpeg" alt="Municipal fruit and vegetable markets, in black and white">
+                    <figcaption class="layer">
+                        <p>Sydney’s first Chinatown was in The Rocks, but it moved to Haymarket in the 1920s to support the growing Chinese population and businesses.</p>
+                    </figcaption>
+                </figure>
+                <figure class="carousel-card">
+                    <img src="images/carousel3.png" alt="A Chinese labourer, circa 1885–90">
+                    <figcaption class="layer">
+                        <p>Many early Chinese workers in Sydney arrived under harsh conditions, with some forced into labor through “sales of pigs” to meet labor shortages in the 1840s.</p>
+                    </figcaption>
+                </figure>
+                <figure class="carousel-card">
+                    <img src="images/carousel4.jpeg" alt="Crowds of pedestrians at re-opening of Dixon Street, under the gateway">
+                    <figcaption class="layer">
+                        <p>In the 1980s, Dixon Street was turned into a pedestrian mall with traditional Chinese gates, becoming an iconic focal point for Sydney’s Chinatown.</p>
+                    </figcaption>
+                </figure>
+                <figure class="carousel-card">
+                    <img src="images/garden2.jpg" alt="Woman under a Chinese pavilion, with red lanterns hanging from the ceiling and bamboo in the background">
+                    <figcaption class="layer">
+                        <p>The Chinese Garden of Friendship opened in 1988 to celebrate the close relationship between Sydney and Guangzhou.</p>
+                    </figcaption>
+                </figure>
+                <figure class="carousel-card">
+                    <img src="images/festival.jpg" alt="Mid-autumn festival celebration with large crowds and a jumping dragon, made up of two people">
+                    <figcaption class="layer">
+                        <p>Every year, Chinatown comes alive to celebrate cultural holidays, such as the Mid-Autumn Festival, with mooncakes, lantern displays, and cultural performances.</p>
+                    </figcaption>
+                </figure>
+                <figure class="carousel-card">
+                    <img src="images/nightmarket.jpg" alt="Chinatown night market with many food stalls and large crowds">
+                    <figcaption class="layer">
+                        <p>Every single Friday until 11pm, Chinatown hosts a bustling night market filled with street food, crafts, and local vendors.</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+
+        <!-- Explore Buttons -->
+        <section class="explore">
+            <h2>Explore Food & Activities</h2>
+            <div class="container">
+                <article class="explore-btn">
+                    <a class="explore-link" href="food.html">
+                        <img src="images/deliciouseats.jpg" alt="Delicious Eats">
+                        <h3>Discover Delicious Eats</h3>
+                    </a>
+                </article>
+                <article class="explore-btn">
+                    <a class="explore-link" href="visit.html">
+                        <img src="images/thingstodo.jpg" alt="Things to Do">
+                        <h3>Find Things to Do</h3>
+                    </a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <nav aria-label="Footer Navigation">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="food.html">Food</a></li>
+                    <li><a href="visit.html">Visit</a></li>
+                </ul>
+            </nav>
+            
+            <div class="contact-info">
+                <p>
+                  Contact Us: <a href="mailto:info@chinatownuncovered.com">info@chinatownuncovered.com</a><br>
+                  Phone: <a href="tel:+61426920373">+61 426 920 373</a>
+                </p>
+            </div>
+    
+        </div>
+    </footer>
+
+
+<!----------JavaScript for Toggle Menu & modal "continue" button---------->
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+    document.getElementById("continue-button").addEventListener("click", function() {
+        document.getElementById("acknowledgement-modal").style.display = "none";
+    });
+</script>
+
+
+</body>
+</html>
